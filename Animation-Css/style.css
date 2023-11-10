@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(0, 0, 0);
+  height: 100vh;
+
+}
+
+.contain{
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.outli-2 {
+    height: 400px;
+    width: 400px;
+    margin: 2px auto;
+    background: url("nomask.jpg") no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    animation-name: nomask;
+    animation-duration: 3s;
+    animation-delay: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    transition: ease-in-out 0.7s;
+
+  }
+
+@keyframes nomask {
+    to{
+        background-repeat: no-repeat;
+        background-image: url('mask.jpg')
+    }
+}
+.outli-2:hover{
+    height: 500px;
+    width: 500px;
+  
+}
+    

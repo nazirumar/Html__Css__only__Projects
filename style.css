@@ -1,0 +1,96 @@
+*{ 
+    margin: 0px;
+    padding: 0px;
+  
+}
+body{
+    flex-wrap: wrap;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('bokeh.jpg'); 
+}
+.container{
+    /* width: 100%; */
+}
+
+.nazbeen{
+justify-content:start;    
+}
+
+
+.nazke{
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 100%;
+    background-color: black;
+    display: flex;
+}
+
+.hello{
+    margin: 2px;
+    height: 20px;
+    width: 50px;
+    background-color: white;
+}
+.nav{
+   display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color: rgb(143, 137, 137);
+    color: white;
+}
+#a{
+    padding: 10px;
+    color: white;
+    
+}
+.footer{
+    z-index: 1;
+    color: white;
+    padding: 10px;
+    background-color: rgb(139, 138, 138);
+    text-align: center;
+    align-items: center;
+}
+
+#main{
+   background-color: gray;
+   padding: 5px;
+   margin: 3%;
+   border: solid greenyellow;
+   border-radius: 10px;
+   animation-direction: reverse;
+   animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#Videos{
+    height: 200px;
+    border:  rgb(43, 27, 27) solid 3px;
+    
+    box-shadow: 29px;
+    background-color: cyan;
+    margin: 10px;
+
+}
+
+form{
+    background-color: aqua;
+
+}
+
+input{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+
+}
+button {
+    width: 100%;
+padding: 10px;
+border-radius: 10px;
+
+cursor: pointer;
+
+}
