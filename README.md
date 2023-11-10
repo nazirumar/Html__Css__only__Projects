@@ -2,37 +2,37 @@
 
 ##  Best HTML Projects for Beginners
 
-    # (1) A Tribute Page
+     (1) A Tribute Page
     
-    # (2) Questionnaire
+     (2) Questionnaire
     
-    # (3) Technical Documentation
+     (3) Technical Documentation
     
-    # (4) A Landing Page
+     (4) A Landing Page
     
-    # (5) The Event or Conference Web Page
+     (5) The Event or Conference Web Page
 
 ## Intermediate HTML Projects with Source Code
 
-    # (6) Your Own Portfolio
+     (6) Your Own Portfolio
     
-    # (7) Restaurant’s Official Webpage
+     (7) Restaurant’s Official Webpage
     
-    # (8) Music Shop Page
+     (8) Music Shop Page
     
-    # (9) A Photography-Related Website
+     (9) A Photography-Related Website
     
-    # (10) 
+     (10) 
 
 ## Advanced HTML Projects with Source Code
 
-    # 11. WhatsApp Web Clone
+     11. WhatsApp Web Clone
     
-    # 12. Clone of the BBC News Website
+     12. Clone of the BBC News Website
 
-    # 13. Clone of the Popular Video-Sharing Site YouTube
+     13. Clone of the Popular Video-Sharing Site YouTube
 
-    # 14. Netflix Clone on the Web
+     14. Netflix Clone on the Web
     
-    # 15. The Nike Website Clone
+     15. The Nike Website Clone
 
