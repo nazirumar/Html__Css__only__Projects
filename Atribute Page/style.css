@@ -11,6 +11,9 @@ color: white;
 
 .container{
     margin: 20px;
+    border: 1px solid;
+    border-radius: 5px;
+
 }
 .container-img{
     display: flex;
@@ -24,5 +27,15 @@ color: white;
     left: 46%;
 }
 .container-img img{
+    margin: 20px;
     border-radius: 100%;
+}
+.text{
+    text-align: center;
+}
+.description{
+    margin: 10px;
+    font-size: 20px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
 }

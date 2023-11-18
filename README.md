@@ -2,7 +2,7 @@
 
 ##  Best HTML Projects for Beginners
 
-     (1) A Tribute Page
+     (1) A Tribute Page ✔
     
      (2) Questionnaire
     
