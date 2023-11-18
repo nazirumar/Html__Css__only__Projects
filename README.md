@@ -6,9 +6,9 @@
     
      (2) Questionnaire ✔
     
-     (3) Technical Documentation
+     (3) Technical Documentation ✔
     
-     (4) A Landing Page
+     (4) A Landing Page ✔
     
      (5) The Event or Conference Web Page
 
