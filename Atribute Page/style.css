@@ -1,0 +1,28 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+background-color: rgb(8, 16, 44);
+color: white;
+}
+
+.container{
+    margin: 20px;
+}
+.container-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+.container-img h2{
+    position: absolute;
+    bottom: 70%;
+    left: 46%;
+}
+.container-img img{
+    border-radius: 100%;
+}
