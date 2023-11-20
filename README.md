@@ -10,7 +10,7 @@
     
      (4) A Landing Page ✔
     
-     (5) The Event or Conference Web Page
+     (5) The Event or Conference Web Page ✔
 
 ## Intermediate HTML Projects with Source Code
 
