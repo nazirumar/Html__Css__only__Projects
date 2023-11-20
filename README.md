@@ -14,7 +14,7 @@
 
 ## Intermediate HTML Projects with Source Code
 
-     (6) Your Own Portfolio
+     (6) Your Own Portfolio ✔
     
      (7) Restaurant’s Official Webpage
     
