@@ -17,6 +17,7 @@ body {
   height: 100vh;
   object-fit: cover;
   filter: brightness(.4);
+  filter: saturate(2);
 }
 .navbar {
   position: relative;
