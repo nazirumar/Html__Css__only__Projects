@@ -16,7 +16,7 @@
 
      (6) Your Own Portfolio ✔
     
-     (7) Restaurant’s Official Webpage
+     (7) Restaurant’s Official Webpage ✔
     
      (8) Music Shop Page
     
