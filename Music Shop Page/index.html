@@ -1,0 +1,852 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <title>☕ Music Shop Page</title>
+</head>
+
+<body>
+  <div class="overflow-hidden">
+    <header class="header">
+      <div class="row d-flex p-md-3 ">
+        <div class="col-md-6 text-center">
+          <p><i class="fa-solid fa-phone"></i> Phones: (800) 1`23-0045;(800) 123-0046
+          </p>
+          <p>
+            <i class="fa-regular fa-clock"></i> We are open: mn-fr:10am-8pm
+          </p>
+        </div>
+        <div class="col-md-6 text-center">
+          <h5>
+            Default welcome msg!
+          </h5>
+          <p class="d-flex justify-content-center gap-md-2 header-link ">
+            <span>
+              <a href=""> Compare (0) |</a>
+            </span>
+            <span>
+              <a href="">
+                My Wish List (0) |
+              </a>
+            </span>
+            <span>
+              <a href="">
+                Sign In |
+              </a>
+            </span>
+            <span>
+              <a href="">
+                $USD |
+              </a>
+            </span>
+            <span>
+              <a href="">
+                en
+              </a>
+            </span>
+          </p>
+        </div>
+      </div>
+
+
+    </header>
+
+
+
+    <div class="row">
+      <section class=" d-flex  justify-content-around align-items-center  bg-dark">
+        <div class="col-md-4">
+          <div class="d-flex align-items-center text-center p-lg-4">
+            <div class="fs-1 text-warning fw-bolder ">MUSIC </div><span class="text-light w-25 fs-4">HERO</span>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="section-search m-2 d-flex align-items-center justify-content-center">
+            <input type="search" class="p-3 w-100" name="" placeholder=" Search entire store here">
+            <button class="btn btn-warning p-3">Search</button>
+          </div>
+        </div>
+        <div class="col-md-4  text-warning d-flex align-items-center justify-content-center">
+          <i class="fa-solid fa-cart-arrow-down fs-3"></i> <span class="text-light">My Cart</span>
+        </div>
+
+
+
+      </section>
+      <div  class=" bg-dark text-muted gap-3 p-2 d-flex text-center justify-content-center align-items-center ">
+      <p>WHAT'S NEW</p>
+        <p>GUITARS</p>
+        <p>BASSES</p>
+        <p>DRUMS</p>
+        <p>PERCUSSIONS</p>
+        <p>DJ EQUIPMENT</p>
+        <p>KEYBORDS </p>
+        <p>PA SYSYTEM</p>
+        <p>SOTHER INSTRUMENTS</p>
+        <p>ACCESSORIES</p>
+      </div>
+    </div>
+
+    <!-- carousal start -->
+    <div class="row">
+<div class="col-md-8">
+
+
+    <div class="slider mt-3">
+      <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner align-items-center  d-flex justify-content-start ">
+          <div class="carousel-item active">
+            <img src="./images/pianon keybord (1).jpg" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/pianon (1).jpg" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="./images/vialon (1).jpg" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+ 
+    <!--  carousal end -->
+    <!-- card start -->
+
+    <div class="col-md-4">
+    <div class="card bg-dark text-dark  bg-white product-side">
+      <img src="./images/molnar-balint - kxYeE1hgKM-unsplash.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">SAXOPHONE</h5>
+        <p class="card-text">Best selling Deals</p>
+      </div>
+    </div>
+    
+    <div class="card bg-dark text-dark  bg-white product-side">
+      <img src="./images/molnar-balint - kxYeE1hgKM-unsplash.jpg" class="card-img" alt="...">
+      <div class="card-body">
+        <h5 class="card-title">ACCORDION</h5>
+        <p class="card-text">Best selling Deals</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+
+
+    <!-- card end -->
+    <div class="row ">
+      <div class="col-md-3 col-lg-3  ">
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">Accessories</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">guitars</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">Basses</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">Drums</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">Percussions</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">DJ Equipment</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">Keyboards</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-3 col-lg-3">
+
+        <div class="card border-0 mb-3 side-text text-dark">
+          <h5 class="card-title text-start mb-3">PA System</h5>
+          <div class="d-flex justify-content-center">
+            <div class="">
+              <img src="./images/guitar.jpg" class="img-fluid" alt="...">
+            </div>
+            <div class="">
+              <div class="card-body">
+                <p class="card-text ">This is a wider card with supporting text below as a </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Card start -->
+
+
+
+
+    <!-- Cart end -->
+    <div class="row  text-center">
+      <div class="col-md-4 ">
+        <div class="card m-2 p-3 border-0">
+          <h5 class="card-title text-start ">
+            Guitars
+
+          </h5>
+          <div class="text-center d-flex d-block flex-column guatar-link">
+            <a class="active" href="#">Feature</a>
+            <a href="">New</a>
+            <a href="">Special</a>
+            <a href="">Bastsellers</a>
+          </div>
+
+          <div class="card-body border rounded-1">
+            <div class="percentage">
+              <div class="percentage-text">
+                -46%
+              </div>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="./images/desktop-wallpaper-best-500-guitar-hq-on-unsplash-dark-guitar-thumbnail.jpg"
+                        class="img-cau" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/hd--.jfif" class="img-cau" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/HD-wallpaper-guitar-rock.jpg" class="img-cau" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <div class="start text-warning mb-2">
+              &star;
+              &star;
+              &star;
+              &star;
+              &star;
+            </div>
+            <div class="price text-danger mb-2">
+              $80.15 <span
+                style="font-weight: 100; color: black; font-size: 13px; text-decoration: line-through;">$150.50</span>
+            </div>
+            <div class="price text-danger">
+              <button class="text-white  btn btn-warning fw-bolder p-3">
+                🛒 Add to Cart
+              </button>
+            </div>
+            <div class="gap-2 heart-compare mt-2 d-flex justify-content-center align-items-center">
+              <div class="heart border rounded-circle p-2">
+
+                🤍
+              </div>
+              <div class="compare border rounded-circle p-2">
+                🔀
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- feature end -->
+
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <!-- feature -->
+        <div class="card m-2 p-3 border-0">
+          <h5 class="card-title text-start ">
+            Guitars
+
+          </h5>
+          <div class="text-center d-flex d-block flex-column guatar-link">
+            <a class="active" href="#">Feature</a>
+            <a href="">New</a>
+            <a href="">Special</a>
+            <a href="">Bastsellers</a>
+          </div>
+
+          <div class="card-body border rounded-1">
+            <div class="percentage">
+              <div class="percentage-text">
+                -46%
+              </div>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="./images/desktop-wallpaper-best-500-guitar-hq-on-unsplash-dark-guitar-thumbnail.jpg"
+                        class="img-cau" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/hd--.jfif" class="img-cau" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/HD-wallpaper-guitar-rock.jpg" class="img-cau" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <div class="start text-warning mb-2">
+              &star;
+              &star;
+              &star;
+              &star;
+              &star;
+            </div>
+            <div class="price text-danger mb-2">
+              $80.15 <span
+                style="font-weight: 100; color: black; font-size: 13px; text-decoration: line-through;">$150.50</span>
+            </div>
+            <div class="price text-danger">
+              <button class="text-white  btn btn-warning fw-bolder p-3">
+                🛒 Add to Cart
+              </button>
+            </div>
+            <div class="gap-2 heart-compare mt-2 d-flex justify-content-center align-items-center">
+              <div class="heart border rounded-circle p-2">
+
+                🤍
+              </div>
+              <div class="compare border rounded-circle p-2">
+                🔀
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- feature end -->
+
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <!-- feature -->
+        <div class="card m-2 p-3 border-0">
+          <h5 class="card-title text-start ">
+            Brands
+
+          </h5>
+          <div class="text-center d-flex d-block flex-column guatar-link">
+            <a class="active" href="#">Feature</a>
+            <a href="">New</a>
+            <a href="">Special</a>
+            <a href="">Bastsellers</a>
+          </div>
+
+          <div class="card-body border rounded-1">
+            <div class="percentage">
+              <div class="percentage-text">
+                -46%
+              </div>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-4">
+                      <img src="./images/desktop-wallpaper-best-500-guitar-hq-on-unsplash-dark-guitar-thumbnail.jpg"
+                        class="img-cau" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/hd--.jfif" class="img-cau" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/HD-wallpaper-guitar-rock.jpg" class="img-cau" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <div class="start text-warning mb-2">
+              &star;
+              &star;
+              &star;
+              &star;
+              &star;
+            </div>
+            <div class="price text-danger mb-2">
+              $80.15 <span
+                style="font-weight: 100; color: black; font-size: 13px; text-decoration: line-through;">$150.50</span>
+            </div>
+            <div class="price text-danger">
+              <button class="text-white  btn btn-warning fw-bolder p-3">
+                🛒 Add to Cart
+              </button>
+            </div>
+            <div class="gap-2 heart-compare mt-2 d-flex justify-content-center align-items-center">
+              <div class="heart border rounded-circle p-2">
+
+                🤍
+              </div>
+              <div class="compare border rounded-circle p-2">
+                🔀
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- feature end -->
+
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <!-- feature -->
+        <div class="card m-2 p-3 border-0">
+          <h5 class="card-title text-start ">
+            Drums
+
+          </h5>
+          <div class="text-center d-flex d-block flex-column guatar-link">
+            <a class="active" href="#">Feature</a>
+            <a href="">New</a>
+            <a href="">Special</a>
+            <a href="">Bastsellers</a>
+          </div>
+
+          <div class="card-body border rounded-1">
+            <div class="percentage">
+              <div class="percentage-text">
+                -46%
+              </div>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="">
+                      <img src="./images/desktop-wallpaper-best-500-guitar-hq-on-unsplash-dark-guitar-thumbnail.jpg"
+                        class="img-cau" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/hd--.jfif" class="img-cau" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/HD-wallpaper-guitar-rock.jpg" class="img-cau" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <div class="start text-warning mb-2">
+              &star;
+              &star;
+              &star;
+              &star;
+              &star;
+            </div>
+            <div class="price text-danger mb-2">
+              $80.15 <span
+                style="font-weight: 100; color: black; font-size: 13px; text-decoration: line-through;">$150.50</span>
+            </div>
+            <div class="price text-danger">
+              <button class="text-white  btn btn-warning fw-bolder p-3">
+                🛒 Add to Cart
+              </button>
+            </div>
+            <div class="gap-2 heart-compare mt-2 d-flex justify-content-center align-items-center">
+              <div class="heart border rounded-circle p-2">
+
+                🤍
+              </div>
+              <div class="compare border rounded-circle p-2">
+                🔀
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- feature end -->
+
+      </div>
+      <div class="col-md-4 col-sm-4">
+        <!-- feature -->
+        <div class="card m-2 p-3 border-0">
+          <h5 class="card-title text-start ">
+            Keyboards
+
+          </h5>
+          <div class="text-center d-flex d-block flex-column guatar-link">
+            <a class="active" href="#">Feature</a>
+            <a href="">New</a>
+            <a href="">Special</a>
+            <a href="">Bastsellers</a>
+          </div>
+
+          <div class="card-body border rounded-1">
+            <div class="percentage">
+              <div class="percentage-text">
+                -46%
+              </div>
+            </div>
+            <div id="carouselExampleFade" class="carousel slide carousel-fade" data-bs-ride="carousel">
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <div class="row">
+                    <div class="col-sm-4 col-lg-3">
+                      <img src="./images/desktop-wallpaper-best-500-guitar-hq-on-unsplash-dark-guitar-thumbnail.jpg"
+                        class="img-cau" alt="...">
+
+                    </div>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/hd--.jfif" class="img-cau" alt="...">
+                </div>
+                <div class="carousel-item">
+                  <img src="./images/HD-wallpaper-guitar-rock.jpg" class="img-cau" alt="...">
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+
+            </div>
+          </div>
+          <div class="d-flex flex-column fw-bolder">
+
+            <p>
+              Lorem ipsum dolor sit amet.
+            </p>
+            <div class="start text-warning mb-2">
+              &star;
+              &star;
+              &star;
+              &star;
+              &star;
+            </div>
+            <div class="price text-danger mb-2">
+              $80.15 <span
+                style="font-weight: 100; color: black; font-size: 13px; text-decoration: line-through;">$150.50</span>
+            </div>
+            <div class="price text-danger">
+              <button class="text-white  btn btn-warning fw-bolder p-3">
+                🛒 Add to Cart
+              </button>
+            </div>
+            <div class="gap-2 heart-compare mt-2 d-flex justify-content-center align-items-center">
+              <div class="heart border rounded-circle p-2">
+
+                🤍
+              </div>
+              <div class="compare border rounded-circle p-2">
+                🔀
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+        <!-- feature end -->
+
+      </div>
+
+    </div>
+
+
+
+
+
+
+    <!-- carousal end -->
+
+    <div class="footer bg-dark text-lg-start text-sm-center text-md-center">
+      <div class="row footer-desc">
+        <div class="col-md-3  col-lg-3">
+          <div class="card-title fw-bolder mb-3 text-white ">About Us</div>
+          <p class="text-muted">Our products are the perfect combination of the latest fashion trends, real durability and
+            flexibility. You know that nowadays music is one of the main spheres in our society.
+
+            It is a gigantic machine of production different goods for mental satisfaction. It is a real mainstream;
+            moreover - it is a modern religion.</p>
+
+        </div>
+        <div class="  col-md-3 d-flex flex-column  mb-3 footer-links">
+          <div class="card-title text-white fw-bolder mb-3">
+            Information
+          </div>
+          <a href="">About Us</a>
+          <a href="">Delivery Information</a>
+          <a href="">Privacy Policy</a>
+          <a href="">Term & Conditions</a>
+          <a href="">Store Info</a>
+          <a href="">Returns</a>
+          <a href="">Blog</a>
+
+        </div>
+        <!-- end -->
+        <div class="col-md-3 mb-3 text-white">
+          <div class="card-title fw-bolder mb-3">Store Info</div>
+          <div class="store-info">
+            <p>
+              🧭Address
+            </p>
+            <p>
+              4578 Marmora Road, Glasgow, D04 89GR
+            </p>
+            <p>📞 Phone:
+              (800) 123-0045; (800) 123-0046</p>
+            <p>⏱We are open:
+              Mn-Fr: 10 am-8 pm</p>
+
+            <p>
+              <span>✉</span> <span class="email-info">
+                e-mail: livedemo-admin@templatemonster.me
+              </span>
+            </p>
+          </div>
+        </div>
+        <!-- end -->
+        <div class="signup  col-lg-3">
+          <div class="card-title fw-bolder mb-3 text-white">
+            Sign Up for Our Newsletter:
+          </div>
+          <p>
+            Get all the latest information on Events, Sales and Offers. Sign up for newsletter today.
+          </p>
+          <div class="email-msg">
+            <form method="post">
+              <input class="p-3 w-75 border rounded-1 bg-dark text-white" type="search"
+                placeholder=" Enter your e-mail address" name="" id="">
+              <button class="btn btn-warning  text-white fw-bolder btn-get ">Get</button>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!-- end -->
+
+      <div class="row last-hero-section">
+        <div class="flex-md-column d-flex flex-lg-row justify-content-md-center align-items-md-center">
+
+        <div class="col-md-3 flex-md-row">
+          <div class="d-flex align-items-center text-center p-lg-4">
+            <div class="fs-1 text-warning fw-bolder ">MUSIC </div><span class="text-light w-25 fs-4">HERO</span>
+          </div>
+        </div>
+        <div class="social-media col-md-3 flex-md-column">
+          <i class="bi  bi-facebook"></i>
+          <i class="bi bi-twitter"></i>
+          <i class="bi bi-google"></i>
+        </div>
+        <div class="master-card col-md-3 flex-md-column">
+          <img src="./images/visa-blue-gradient-800x450.jpg" alt="">
+          <img
+            src="./images//png-transparent-visa-electron-credit-card-debit-card-payment-mastercard-purple-text-trademark.png"
+            alt="">
+          <img src="./images/images.png" width="50" alt="">
+          <img src="./images/Maestro_acceptance_mark.png" alt="">
+          <img src="./images/paypal-payment-icon-editorial-logo-free-vector.jpg" alt="">
+        </div>
+        <p class="col-md-3">
+          Powered By OpenCart Marigard © 2023
+        </p>
+      </div>
+    </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>

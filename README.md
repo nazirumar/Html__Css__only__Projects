@@ -18,7 +18,7 @@
     
      (7) Restaurant’s Official Webpage ✔
     
-     (8) Music Shop Page
+     (8) Music Shop Page ✔
     
      (9) A Photography-Related Website
     

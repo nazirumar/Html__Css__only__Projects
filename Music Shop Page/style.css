@@ -1,0 +1,149 @@
+* {
+  padding: 0%;
+  margin: 0%;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(255, 255, 255);
+  color: black;
+}
+.container-fluid {
+    padding: 0px;
+    overflow: hidden;
+ }
+
+
+.header-link a{
+    font-weight: 100;
+    color: #1a1a61;
+    text-decoration: none;
+}
+.header-link a:active{
+    color: blue;
+}
+
+.slider {
+  height: 500px;
+  margin: 5px;
+  background-color: #4e3c3c;
+}
+.slider img {
+  object-fit: cover;
+  object-position: center;
+  height: 500px;
+  overflow: hidden;
+}
+
+.product-side {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  height: 220px;
+  width: auto;
+  margin: 20px 2rem;
+  background-color: white;
+}
+.card-img {
+  height: 130px;
+  width: 130px;
+  object-fit: fill;
+  object-position: center;
+}
+
+.side-text {
+  margin: 10px 10px;
+  text-wrap: wrap;
+  padding: 10px;
+  text-align: start;
+}
+.img-fluid{
+  border-radius: 5px;
+  height: auto;
+  width: 200px;
+  object-fit: cover;
+}
+
+.guatar-link {
+  margin-bottom: 20px;
+}
+.guatar-link a {
+  text-decoration: none;
+  font-weight: 900;
+}
+a {
+  color: black;
+}
+.active {
+  color: rgb(51, 19, 211);
+}
+.img-cau {
+  height: 400px;
+}
+
+.percentage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 500;
+  position: relative;
+  width: 50px;
+  height: 50px;
+  background-color: red;
+  border-radius: 100%;
+}
+.price {
+  font-weight: 900;
+}
+
+.footer{
+    font-size: 12px;
+    
+}
+.footer-desc{
+    padding: 5rem 3rem;
+}
+.footer-links a {
+  color: rgb(255, 174, 0);
+  text-decoration: none;
+  padding: 2px;
+}
+
+.store-info p {
+  margin-bottom: 3px;
+  color: gray;
+}
+.email-info {
+  color: rgb(255, 174, 0);
+}
+
+.signup p{
+  color: gray;
+  font-size: 15px;
+}
+
+.btn-get{
+    padding: 14px 30px;
+    margin-top: 5px;
+   
+}
+
+.last-hero-section {
+  background-color: rgb(75, 75, 75);
+ padding: 10px;
+}
+
+.social-media i{
+  border-radius: 100%;
+  padding: 15px;
+  height: 25px;
+  width: 25px;
+  background-color: rgb(103, 96, 96);
+}
+
+
+.master-card img{
+    height: 40px;
+    margin: 15px;
+}
